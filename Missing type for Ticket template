@@ -1,0 +1,6 @@
+Each time I create a new ticket from FormCreator, i have an error in phpèerrors.log
+
+[2021-04-13 09:42:38] glpiphplog.ERROR: CommonITILObject::getTemplateFieldName() in /opt/rh/httpd24/root/var/www/vhosts/glpi/html/glpi-9.5.4/inc/commonitilobject.class.php line 7950
+Missing type for Ticket template!  {"user":"731@ql110206","mem_usage":"0.095\", 6.92Mio)"}
+
+This even if request type is ok in formular AND in template ticket
